@@ -6,6 +6,10 @@ This is the repo for reproducing our paper - Better Robustness by More Coverage:
 
 I conducted all experiments under Torch==1.4.0, Transformers==2.3.0. You can see a complete list of dependencies in `requirements.txt`, although you don't have to install all of them as most of them are unnecessary for this codebase.
 
+## Data
+
+We provide the exact data that we used in our experiments for easier reproduction. The download link is [here](https://drive.google.com/file/d/1MIFljjU8sOzxZshBvq7gFqX9MidqUSFe/view?usp=sharing).
+
 ## Running 
 
 I have included examples of how to run model training with MixADA as well as how to evaluate the models under adversarial attacks in `run_job.sh` and `run_job2.sh`. However, you need to modify the scripts to fill in your dataset and pretrained model checkpoint paths.
